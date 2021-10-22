@@ -1,0 +1,11 @@
+/^([www]+(.))([a-zA-Z0-9_-]+(.))([a-z]+(.)[a-z]+)$/gm
+Verilmis yazi umumilikde sayt adidirsa secsin.
+
+
+/^([a-zA-Z0-9._-]+)[a-z][0-9]+[@]([a-z]+)(.)([a-z]+)(.)([a-z]+)$/gm 
+/^[\w\.-]+[a-z]@([\w-]+\.)+([\w-][a-z]+)$/gm             
+Verilmis yazinin umumilikde email-dirse secsin
+
+
+/[(0-9)]|[\+\-\*\/]|[=]/gm     
+Verilmis yazinin icindeki riyazi ifadeleri tapan regex
